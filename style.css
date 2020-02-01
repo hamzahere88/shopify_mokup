@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #F2E0CF;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_nav{
+    /* margin-right: auto; */
+}
+select
+{
+    border: none;
+    background-color: #F2E0CF
+    
+}
