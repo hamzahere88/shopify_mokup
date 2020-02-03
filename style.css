@@ -1,25 +1,164 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-body
-{
-    background-color: #F2E0CF;
+/* blue screen */
+.blue_screen {
+  background-color: #dff7e5;
 }
 
-header
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/* body color and and fonts */
+body {
+  /* background-color: #dff7e5; */
+  font-family: "Open Sans", sans-serif;
 }
-.left_nav{
-    /* margin-right: auto; */
+
+/* nav start and header */
+/* header me flex or os k srai cheze perent */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-select
-{
-    border: none;
-    background-color: #F2E0CF
-    
+/* un oder list ki styling */
+ul {
+  /* display: inline-block; */
+  display: flex;
+  list-style-type: none;
+  font-size: 17px;
+}
+/* unorder list me li ki styling k lye padding k lye */
+ul li {
+  padding: 15px;
+  font-size: 17px;
+  align-self: center;
+  font-family: sans-serif;
+}
+/* header k ander left nav */
+.left_nav {
+  display: flex;
+  margin-right: auto;
+}
+/* drop down list  */
+select {
+  border: none;
+  background-color: #dff7e5;
+  color: #72828c;
+  font-size: 16px;
+}
+/* header k ander right saide k lye */
+.right_nav {
+  /* background-color: brown; */
+  margin-left: 10px;
+  padding: 10px;
+}
+/* button k lye */
+.btn {
+  background-color: #008060;
+  width: 150px;
+  height: 45px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* links */
+
+a {
+  text-decoration: none;
+  color: #72828c;
+}
+.image {
+  margin-right: 20px;
+}
+
+/* header end */
+
+/* main start */
+.main1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* main1 k ander left conttants */
+.main1_left_con {
+  display: flex;
+  flex-direction: column;
+}
+
+/* main heading */
+.main_heading {
+  color: #004c3f;
+  font-size: 48px;
+}
+
+/* main left text */
+.main_left_p {
+  margin-top: 15px;
+  font-size: 23px;
+}
+/* main1 k andar left saide par inputs or text  */
+.text_main1_left {
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #72828c;
+  padding: 10px;
+}
+/* left saide par input or text k lye */
+.main1_btn {
+  margin-top: 3px;
+  background-color: #008060;
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 650;
+}
+/* main k botom me 4 pics he start here */
+.main_botom_img {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+/* botom images jo main k ander he on k size pading */
+.img_1 {
+  height: 150px;
+  width: 255px;
+  align-self: flex-end;
+}
+/* image 2 k lye */
+.img_2 {
+  border-radius: 5px;
+  width: 350px;
+  align-self: flex-start;
+}
+/* image 3 k lye */
+.img_3 {
+  height: 250px;
+  width: 250px;
+
+  align-self: flex-end;
+}
+/* image 4 k lye */
+.img_4 {
+  height: 220px;
+  width: 250px;
+  align-self: center;
+}
+/* images bottom end */
+/* second screen staart */
+.second_s {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
 }
